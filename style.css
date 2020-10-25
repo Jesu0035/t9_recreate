@@ -3,10 +3,12 @@
 }
 
 
+
 body {
 	background:#EFE7BC;
 	margin: 20px;
 }
+
 
 article {
 	display:flex;
@@ -29,12 +31,16 @@ main{
 }
 img {
 	max-width: 100%;
+	border-bottom: 5rem;
 }
 .margins {
 	margin:3px;
+	align-items: stretch;
+	padding: 1rem;
 }
 .button_1 {
-	margin-left: 6rem;
+	margin-left: 5rem;
+
 	margin top: 30px;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -46,4 +52,46 @@ img {
 	border-color: brown;
 	color: brown;
 	cursor: pointer;
+	font-size: 20px;
+	font-family:monospace;
+
 }
+.category {
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: gray;
+	font-weight: 100px;
+}
+
+h1{
+	margin: 0;
+	font-family: 'Crimson Text', serif;
+	color: gray;
+	font-weight: 100px;
+}
+
+.text1{
+	color: brown;
+}
+
+.birkstone{
+	background: black;
+	color: aliceblue;
+
+}
+.color {
+	font-style: italic;
+	font-weight: bold;
+	color: gray;
+	font-family: sans-serif;
+}
+.stock{
+	font-style: italic;
+	font-weight:100;
+	color: gray;
+	font-family: sans-serif;
+}
+
+
+
+

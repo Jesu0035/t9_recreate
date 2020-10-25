@@ -28,10 +28,11 @@ function showPost(post){
 	//clone.querySelector(".image").src = img_url;
 
 	clone.querySelector("h3").textContent = post.brand;
-	clone.querySelector("h2").textContent = post.price;
-	clone.querySelector(".stock").textContent = post.in_stock;
+	clone.querySelector("h2").textContent = "Price- $"+ post.price;
 
-	clone.querySelector(".color").textContent = post.color;
+	clone.querySelector(".stock").textContent ="In Stock-   "+ post.in_stock;
+
+	clone.querySelector(".color").textContent = "Colours-   "+post.color;
 
 
 
