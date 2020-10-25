@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+	background: yellowgreen;
+	margin: 20px;
+}
+
+article {
+	display:flex;
+	grid-template-columns: 1fr 1fr;
+
+	background-color: pink;
+	margin-bottom: 1vw;
+	grid-gap: 1rem;
+	flex-direction: column;
+	position: relative;
+	box-shadow: 10px 10px 78px -1px rgba(0, 0, 0, 0.25);
+	padding: 15px;
+}
+
+main{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 1rem 2rem;
+	grid-column: 2/ -1;
+	grid-row: 2/3;
+}
+img {
+	max-width: 100%;
+}
