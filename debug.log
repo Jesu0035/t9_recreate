@@ -3,3 +3,4 @@
 [1023/162925.617:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
 [1024/120255.590:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
 [1025/071654.700:ERROR:directory_reader_win.cc(43)] FindFirstFile: Den angivne sti blev ikke fundet. (0x3)
+[1025/123958.930:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\chuzi\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\3713676a-a68f-4adb-9a62-8185e165d468: Den angivne sti blev ikke fundet. (0x3)
