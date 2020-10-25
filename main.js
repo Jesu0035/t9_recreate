@@ -14,7 +14,7 @@ function callback(data){
 function showPost(post){
 	console.log(post)
 
-	post._embedded['wp:featuredmedia']['0'].media_details.sizes.medium.source_url
+	//post._embedded['wp:featuredmedia']['0'].media_details.sizes.medium.source_url
 
 	//const img_url =
 	//post._embedded["wp:featuredmedia"]["0"].media_details.sizes.medium.source_url
