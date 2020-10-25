@@ -4,16 +4,15 @@
 
 
 body {
-	background: yellowgreen;
+	background:#EFE7BC;
 	margin: 20px;
 }
 
 article {
 	display:flex;
 	grid-template-columns: 1fr 1fr;
-
-	background-color: pink;
-	margin-bottom: 1vw;
+	background-color: whitesmoke;
+	margin-bottom: 6vw;
 	grid-gap: 1rem;
 	flex-direction: column;
 	position: relative;
@@ -30,4 +29,21 @@ main{
 }
 img {
 	max-width: 100%;
+}
+.margins {
+	margin:3px;
+}
+.button_1 {
+	margin-left: 6rem;
+	margin top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: block;
+}
+.button{
+	margin: 0;
+	padding: 0.5rem;
+	border-color: brown;
+	color: brown;
+	cursor: pointer;
 }
