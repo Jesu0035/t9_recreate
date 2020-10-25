@@ -14,12 +14,6 @@ function callback(data){
 function showPost(post){
 	console.log(post)
 
-	//post._embedded['wp:featuredmedia']['0'].media_details.sizes.medium.source_url
-
-	//const img_url =
-	//post._embedded["wp:featuredmedia"]["0"].media_details.sizes.medium.source_url
-
-
 	const template=document.querySelector("#bike_template").content;
 	const clone = template.cloneNode(true);
 	const mainElemt = document.querySelector("main")
@@ -34,12 +28,10 @@ function showPost(post){
 
 	clone.querySelector(".color").textContent = "Colours-   "+post.color;
 
+	clone.querySelector('.image').src = post._embedded["wp:featuredmedia"][0]['source_url']
 
 
-	//clone.querySelector("img").img.setAttribute = post.guid.rendered;
-	//const img = template.querySelector("img");
-	//img.setAttribute("src",`http://aguacate.dk/t9/bike/${template.img}`);
+	document.querySelector("main").appendChild(clone);
 
-	mainElemt.appendChild(clone);
 
 }
